@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">    
+    <title>브라우저에 내장된 기본스타일과reset</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <style>
+        *{margin:0;padding:;}
+        
+        body{padding:0;}
+        
+        h1{margin:0; border:1px solid red;}
+        
+        h2{border"1px; solid blue;"}
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <h1>Built-In CSS</h1>
+    <p>
+        어떤 이유로 브라우저가 "퍼블리셔가 작성한 CSS"를 읽지 못하다면, 브라우저 자체에 내장된 기본 스타일로 웹페이지에 적용하여 출력한다.  
+    </p>
+    <h2>css reset(태그의 초기화)이 필요한 이유</h2>
+    <p>
+        웹브로우저마다 내장된 기본 스타일이 완전히 똑같지 않아 크로스부라우징을 구현하기 어렵기 때문에 자주 사용하는 태그들에 한해 기본 스타일 값을 제로화 한다. 
+    </p>
+</div>
+
+</body>
+</html>

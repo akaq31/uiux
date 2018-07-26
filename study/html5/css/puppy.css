@@ -1,0 +1,13 @@
+@charset "utf-8";
+<link rel="stylesheet" href="css/puppy.css">
+header, section, footer{width: 600px; background-color: #333;}
+header{width:600px; height:100px; margin: 0 auto; line-height: 100px; text-align: center; background-color: #006699;}
+h1{color:white; font-size: 30px;}
+        
+section{width:570px; height:100px;margin-top: 10px; font-size: 14px;} 
+img{display: block; float: right; width: 300px; margin-right: 10px;
+box-shadow: 5px 5px grey;}
+footer{width:600px; height: 80px; color: white; font-size: 16px; line-height: 80px; text-align: center;}
+
+
+
